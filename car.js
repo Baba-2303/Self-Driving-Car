@@ -41,7 +41,7 @@ class Car{
         if(Math.abs(this.speed)<this.friction){
             this.speed=0;
         }
-        console.log(this.speed); 
+        // console.log(this.speed); 
         //Left & Right controls
         if(this.speed!=0){
             const flip=this.speed>0?1:-1;
